@@ -1,0 +1,3 @@
+http://www.itworld.com/article/2833078/it-management/3-ways-to-import-and-export-a-mysql-database.html
+mysqldump -u [username] -p [database_name] > [dumpfilename.sql]
+mysql -u [username] -p [database_name] < [dumpfilename.sql]

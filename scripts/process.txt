@@ -1,0 +1,16 @@
+setup wordcandidate.txt
+python3 downloadpics.py
+prepare articles for wordscadidate.txt
+python3 generatewriting.py
+python3 testimage_gui.py
+
+revise testimage_gui.py paths 
+paths have to two different folders: /img/, /text/
+
+designed package:
+
+replacers.py
+cleantext.py
+translate_chinese.py
+
+

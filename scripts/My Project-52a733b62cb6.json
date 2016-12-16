@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "spheric-rigging-148523",
+  "private_key_id": "52a733b62cb6f83b03fc389523de9f993123cda8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDHz3Pr2aMuwvWE\n85dViYyI0COnQ7S0I31xGyJufb/T1QiQ2B1HTRx1q15LCNC9r1cTdLRxznFrtVwS\nd9uujsjJz2K3IRsFBRK5ts2DuogHP2CuF4v8P0Op5jO1I4+acYxY3HHpJQtWte2w\nDt+srRVhy959DMgV901hK4HFxZtyarGFH23XDFjMR8MoHYAmfeP7L6NQxcX4A3he\n6VIL6r+1a2qKGqld+BVT6IDXgAu4t7eewxK5i5Jz0npv4RHa1xMWwzJNsKAsqNVC\n1w8MRk7jRGWHcKkubBBXjyl3wlmeIfjY/pTogJwiX5jTKcBOSxD9pRdzz0mkjJuo\nQCaqL033AgMBAAECggEATHhvCyK+O1VOFdYMYyZDbNEL9CYLcK3sgm86HENwOShd\nIOI1QmaWr8ooSltTWGVU1BNkQ/IYonpEhKTupL3sxp/iTegTqTYp1n3J5dJr4So2\nXCqS3rVvtgRuYbL8cMVoS1IDHpGY51S1ZR4sKLANcOJPglhz80Q0jy3RetmIBp91\nkiLfYrH6w4zSu6VOYyO9cZ9sPydzZyfwJz7euOST3Fa82Nr5Z7P1ka8dWmNqZDIT\n0NDJK8XS36ZE7YRr0QT7SlfoH6a7NgLvB18IWrmugYxgkYFl3i9c8G2/SYjkbDxN\nzsqDlsgNSGgpqjz1OVx3GfxdVkzNePb5ZKCcP0/wQQKBgQDrnMUxsJDGSryuRO5P\nwTUmjP0c0+f3yXPiAFujHp/MBn5ZwOEWTLI5+UXTUDhy2RUhSODV/dUSTIabMSix\nN7PiODNlap3RQXrpp+JwTL95jOd9Z2oUVXTsLcO9Va06UeysUika4okoGjQ+wZVM\nr/ashz4XvU+D3QbBbhpOZ/59cQKBgQDZGZrJMD8igSOlU0rZL8KEqxSkWJ2urajD\ngsvsSnxIU6xyOL5BsbSa5K6RbLwglV4fLOibMvnl206u44A/mCBulbx1lb15EwD1\nzwdSPhZTEbRvypjzCZ4WjMU9eesCtTnUhxNYPzVdiDSjl6V7Sl+8w8XyZZSTZwFj\nd9YFVNNt5wKBgHWe/L6So6OqOclR9hpwnKUTK2TR0PLdafGANj8XkbSb5UXPSU8F\nmM/iRl54pMWI48iLBlst7cnF1EjzYJof8bhUUCwn7oNBiifNPPjNB6WZlxL+pnFi\nPA2PxzDk7aa4sUtRdN3MC6audjiCEZOIIL/+gBv/0QtGMxIrcgyEVAKxAoGAEF4i\n0lpF2EceNd+yu+8i3je7xaw8rye+mobo8vamqhlM3guzJGbOdAMbujEVeeto/ja3\njsPoHVFMfFkAmUrR3ySA4eiZMWCiaOXj6mpt6nNiRC9lGqW1+oNAd6MSedDJ/GD2\nr2eMkXGsbk0Hl+UClMu5x82qxvY0H5iwVRSRIC8CgYB8BOPcKzWZkiizn+W2Vlyh\nelGChizEnEiyt4SO2nb0ZNDfMSmG4lNk5bvCGmvVfDsSCoS8vjy1w0nN83rxGLhP\n7EEssHU8XuvvjzAlmPhjrY8eqTaDHmIZ702YpSfq7X44rm+NzvS1sQALATiz1luh\nGnTa4ebftcfj7tS33hItDQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "snowampl@spheric-rigging-148523.iam.gserviceaccount.com",
+  "client_id": "117346309825260994612",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/snowampl%40spheric-rigging-148523.iam.gserviceaccount.com"
+}

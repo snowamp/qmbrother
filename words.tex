@@ -1,0 +1,164 @@
+% !TEX encoding = UTF-8 Unicode
+% words.py
+\documentclass[letterpaper]{article}
+\usepackage{geometry}
+\usepackage[absolute]{textpos}
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+\usepackage[colorlinks]{hyperref}
+
+\usepackage{relsize}
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun}
+\usepackage{calc}
+
+\geometry{left=1cm, right=0cm}
+\tikzset{fontscale/.style = {font=\relsize{#1}}}
+
+
+
+\newcommand{\drawothers}[3]{
+\node (txt) at (0, 1.5)[fontscale=0.5, color = black] {#1};
+\node(txt) at (0, 0.5) [fontscale=0.5, color = black]{#2};
+\node(fig1) at(0,-1){\includegraphics[width=1.6cm]{#3}};
+\node(fig2) at (2, 0){\includegraphics[width=0.6cm]{/Users/lxb/Documents/yyc/latex/gmbrothers.png}};
+
+}
+
+
+
+
+
+
+\newcommand{\drawcircle}[4]{
+ 
+\filldraw[fill=#1] (0,0) circle [radius=2.5cm];
+\node (txt) at (0, 1.5)[fontscale=0.5, color = black] {#2};
+\node(txt) at (0, 0.5) [fontscale=0.5, color = black]{#3};
+\node(fig1) at(0,-1){\includegraphics[width=1.6cm]{#4}};
+\node(fig2) at (2, 0){\includegraphics[width=0.6cm]{/Users/lxb/Documents/yyc/latex/gmbrothers.png}};
+
+
+ }
+
+\newcommand{\drawsquare}[4]{
+
+ \node (rect) at (0, 0) [draw, minimum width = 8cm, minimum height=6cm, fill= #1, rounded corners=15pt]{};
+\node (txt) at (0.5, 1)[fontscale=2, color = black] {#2};
+\node(txt) at (0.5, -1) [fontscale=2, color = black]{#3};
+\node(fig1) at(-2.5,0){\includegraphics[width=3cm]{#4}};
+\node(fig2) at (3, -2.3){\includegraphics[width=1cm]{/Users/lxb/Documents/yyc/latex/gmbrothers.png}};
+
+
+ }
+
+
+\begin{document}
+\textblockorigin{1cm}{1cm}
+\begin{textblock*}{5cm}(2.5cm,2.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=red!10, rounded corners=15pt]{};
+\drawothers{hang}{悬挂}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/10.png}
+\end{tikzpicture}
+\end{textblock*}
+\begin{textblock*}{5cm}(8.5cm,2.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=blue!10, rounded corners=15pt]{};
+\drawothers{sweep}{扫}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/11.png}
+\end{tikzpicture}
+\end{textblock*}
+\begin{textblock*}{5cm}(14.5cm,2.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=yellow!10, rounded corners=15pt]{};
+\drawothers{pillow}{枕头}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/12.png}
+\end{tikzpicture}
+\end{textblock*}
+\begin{textblock*}{5cm}(2.5cm,8.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=green!10, rounded corners=15pt]{};
+\drawothers{cookie}{饼干}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/13.png}
+\end{tikzpicture}
+\end{textblock*}
+\begin{textblock*}{5cm}(8.5cm,8.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=pink!10, rounded corners=15pt]{};
+\drawothers{refrigerator}{冰箱}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/14.png}
+\end{tikzpicture}
+\end{textblock*}
+\begin{textblock*}{5cm}(14.5cm,8.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=orange!10, rounded corners=15pt]{};
+\drawothers{trim}{修剪}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/5.png}
+\end{tikzpicture}
+\end{textblock*}
+\begin{textblock*}{5cm}(2.5cm,14.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=red!10, rounded corners=15pt]{};
+\drawothers{broom}{扫帚}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/6.png}
+\end{tikzpicture}
+\end{textblock*}
+\begin{textblock*}{5cm}(8.5cm,14.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=blue!10, rounded corners=15pt]{};
+\drawothers{scotch}{切开}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/7.png}
+\end{tikzpicture}
+\end{textblock*}
+\begin{textblock*}{5cm}(14.5cm,14.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=yellow!10, rounded corners=15pt]{};
+\drawothers{nap}{小睡}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/8.png}
+\end{tikzpicture}
+\end{textblock*}
+\begin{textblock*}{5cm}(2.5cm,20.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=green!10, rounded corners=15pt]{};
+\drawothers{mustache}{胡子}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/9.png}
+\end{tikzpicture}
+\end{textblock*}
+\begin{textblock*}{5cm}(8.5cm,20.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=pink!10, rounded corners=15pt]{};
+\drawothers{crayon}{蜡笔}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/10.png}
+\end{tikzpicture}
+\end{textblock*}
+\begin{textblock*}{5cm}(14.5cm,20.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=orange!10, rounded corners=15pt]{};
+\drawothers{mirror}{镜子}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/11.png}
+\end{tikzpicture}
+\end{textblock*}
+\null\newpage
+\textblockorigin{1cm}{1cm}
+\begin{textblock*}{5cm}(2.5cm,2.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=red!10, rounded corners=15pt]{};
+\drawothers{fluff}{使松软}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/12.png}
+\end{tikzpicture}
+\end{textblock*}
+\begin{textblock*}{5cm}(8.5cm,2.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=blue!10, rounded corners=15pt]{};
+\drawothers{napkin}{餐巾纸}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/13.png}
+\end{tikzpicture}
+\end{textblock*}
+\begin{textblock*}{5cm}(14.5cm,2.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=yellow!10, rounded corners=15pt]{};
+\drawothers{comfortable}{舒服的}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/14.png}
+\end{tikzpicture}
+\end{textblock*}
+\begin{textblock*}{5cm}(2.5cm,8.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=green!10, rounded corners=15pt]{};
+\drawothers{scissor}{剪刀}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/5.png}
+\end{tikzpicture}
+\end{textblock*}
+\begin{textblock*}{5cm}(8.5cm,8.5cm)
+\begin{tikzpicture}[overlay]
+\node (rect) at (0, 0) [draw, minimum width =8cm, minimum height=6cm, fill=pink!10, rounded corners=15pt]{};
+\drawothers{crawl}{爬}{/Users/lxb/Documents/yyc/scripts/booksproject/ifgiveamouseacookie/6.png}
+\end{tikzpicture}
+\end{textblock*}
+
+
+\end{document}

@@ -1,0 +1,165 @@
+\thispagestyle{empty}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{20cm}(0cm, 0cm)
+\begin{tikzpicture}
+\node(txt) at (16,0)[fontscale=0.4]{GM Brothers@2017};
+\drawline{{-3,-4.8,-6.6,-8.4,-10.2,-12.0,-13.8,-15.6,-17.4,-19.2,-21.0,-22.8,-24.6}}{{-3.6,-5.4,-7.2,-9.0,-10.8,-12.6,-14.4,-16.2,-18.0,-19.8,-21.6,-23.4,-25.2}}{{-4.2,-6.0,-7.8,-9.6,-11.4,-13.2,-15.0,-16.8,-18.6,-20.4,-22.2,-24.0,-25.8}};
+\node(fig) at (3,-3){\includegraphics[width=8cm]{/Users/lxb/Documents/yyc/latex/pics/Q1:cloud1_crop.png}};
+\node(fig1) at (16,-23){\includegraphics[width = 6cm]{/Users/lxb/Documents/yyc/scripts/booksproject/the_tale_of_peter_rabbit/IMG_2175_crop.jpg}};
+\end{tikzpicture}
+\end{textblock*}
+\null\newpage
+\thispagestyle{empty}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{20cm}(0cm, 0cm)
+\begin{tikzpicture}
+\node(txt) at (16,0)[fontscale=0.4]{GM Brothers@2017};
+\drawline{{-3,-4.8,-6.6,-8.4,-10.2,-12.0,-13.8,-15.6,-17.4,-19.2,-21.0,-22.8,-24.6}}{{-3.6,-5.4,-7.2,-9.0,-10.8,-12.6,-14.4,-16.2,-18.0,-19.8,-21.6,-23.4,-25.2}}{{-4.2,-6.0,-7.8,-9.6,-11.4,-13.2,-15.0,-16.8,-18.6,-20.4,-22.2,-24.0,-25.8}};
+\node(fig) at (3,-3){\includegraphics[width=8cm]{/Users/lxb/Documents/yyc/latex/pics/Q10cloud4_crop.png}};
+\node(fig1) at (16,-23){\includegraphics[width = 6cm]{/Users/lxb/Documents/yyc/scripts/booksproject/the_tale_of_peter_rabbit/IMG_2177_crop.jpg}};
+\end{tikzpicture}
+\end{textblock*}
+\null\newpage
+\thispagestyle{empty}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{20cm}(0cm, 0cm)
+\begin{tikzpicture}
+\node(txt) at (16,0)[fontscale=0.4]{GM Brothers@2017};
+\drawline{{-3,-4.8,-6.6,-8.4,-10.2,-12.0,-13.8,-15.6,-17.4,-19.2,-21.0,-22.8,-24.6}}{{-3.6,-5.4,-7.2,-9.0,-10.8,-12.6,-14.4,-16.2,-18.0,-19.8,-21.6,-23.4,-25.2}}{{-4.2,-6.0,-7.8,-9.6,-11.4,-13.2,-15.0,-16.8,-18.6,-20.4,-22.2,-24.0,-25.8}};
+\node(fig) at (3,-3){\includegraphics[width=8cm]{/Users/lxb/Documents/yyc/latex/pics/Q11cloud5_crop.png}};
+\node(fig1) at (16,-23){\includegraphics[width = 6cm]{/Users/lxb/Documents/yyc/scripts/booksproject/the_tale_of_peter_rabbit/IMG_2178_crop.jpg}};
+\end{tikzpicture}
+\end{textblock*}
+\null\newpage
+\thispagestyle{empty}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{20cm}(0cm, 0cm)
+\begin{tikzpicture}
+\node(txt) at (16,0)[fontscale=0.4]{GM Brothers@2017};
+\drawline{{-3,-4.8,-6.6,-8.4,-10.2,-12.0,-13.8,-15.6,-17.4,-19.2,-21.0,-22.8,-24.6}}{{-3.6,-5.4,-7.2,-9.0,-10.8,-12.6,-14.4,-16.2,-18.0,-19.8,-21.6,-23.4,-25.2}}{{-4.2,-6.0,-7.8,-9.6,-11.4,-13.2,-15.0,-16.8,-18.6,-20.4,-22.2,-24.0,-25.8}};
+\node(fig) at (3,-3){\includegraphics[width=8cm]{/Users/lxb/Documents/yyc/latex/pics/Q12star1_crop.png}};
+\node(fig1) at (16,-23){\includegraphics[width = 6cm]{/Users/lxb/Documents/yyc/scripts/booksproject/the_tale_of_peter_rabbit/IMG_2180_crop.jpg}};
+\end{tikzpicture}
+\end{textblock*}
+\null\newpage
+\thispagestyle{empty}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{20cm}(0cm, 0cm)
+\begin{tikzpicture}
+\node(txt) at (16,0)[fontscale=0.4]{GM Brothers@2017};
+\drawline{{-3,-4.8,-6.6,-8.4,-10.2,-12.0,-13.8,-15.6,-17.4,-19.2,-21.0,-22.8,-24.6}}{{-3.6,-5.4,-7.2,-9.0,-10.8,-12.6,-14.4,-16.2,-18.0,-19.8,-21.6,-23.4,-25.2}}{{-4.2,-6.0,-7.8,-9.6,-11.4,-13.2,-15.0,-16.8,-18.6,-20.4,-22.2,-24.0,-25.8}};
+\node(fig) at (3,-3){\includegraphics[width=8cm]{/Users/lxb/Documents/yyc/latex/pics/Q13star2_crop.png}};
+\node(fig1) at (16,-23){\includegraphics[width = 6cm]{/Users/lxb/Documents/yyc/scripts/booksproject/the_tale_of_peter_rabbit/IMG_2184_crop.jpg}};
+\end{tikzpicture}
+\end{textblock*}
+\null\newpage
+\thispagestyle{empty}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{20cm}(0cm, 0cm)
+\begin{tikzpicture}
+\node(txt) at (16,0)[fontscale=0.4]{GM Brothers@2017};
+\drawline{{-3,-4.8,-6.6,-8.4,-10.2,-12.0,-13.8,-15.6,-17.4,-19.2,-21.0,-22.8,-24.6}}{{-3.6,-5.4,-7.2,-9.0,-10.8,-12.6,-14.4,-16.2,-18.0,-19.8,-21.6,-23.4,-25.2}}{{-4.2,-6.0,-7.8,-9.6,-11.4,-13.2,-15.0,-16.8,-18.6,-20.4,-22.2,-24.0,-25.8}};
+\node(fig) at (3,-3){\includegraphics[width=8cm]{/Users/lxb/Documents/yyc/latex/pics/Q14star3_crop.png}};
+\node(fig1) at (16,-23){\includegraphics[width = 6cm]{/Users/lxb/Documents/yyc/scripts/booksproject/the_tale_of_peter_rabbit/IMG_2194_crop.jpg}};
+\end{tikzpicture}
+\end{textblock*}
+\null\newpage
+\thispagestyle{empty}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{20cm}(0cm, 0cm)
+\begin{tikzpicture}
+\node(txt) at (16,0)[fontscale=0.4]{GM Brothers@2017};
+\drawline{{-3,-4.8,-6.6,-8.4,-10.2,-12.0,-13.8,-15.6,-17.4,-19.2,-21.0,-22.8,-24.6}}{{-3.6,-5.4,-7.2,-9.0,-10.8,-12.6,-14.4,-16.2,-18.0,-19.8,-21.6,-23.4,-25.2}}{{-4.2,-6.0,-7.8,-9.6,-11.4,-13.2,-15.0,-16.8,-18.6,-20.4,-22.2,-24.0,-25.8}};
+\node(fig) at (3,-3){\includegraphics[width=8cm]{/Users/lxb/Documents/yyc/latex/pics/Q2:cloud3_crop.png}};
+\node(fig1) at (16,-23){\includegraphics[width = 6cm]{/Users/lxb/Documents/yyc/scripts/booksproject/the_tale_of_peter_rabbit/IMG_2196_crop.jpg}};
+\end{tikzpicture}
+\end{textblock*}
+\null\newpage
+\thispagestyle{empty}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{20cm}(0cm, 0cm)
+\begin{tikzpicture}
+\node(txt) at (16,0)[fontscale=0.4]{GM Brothers@2017};
+\drawline{{-3,-4.8,-6.6,-8.4,-10.2,-12.0,-13.8,-15.6,-17.4,-19.2,-21.0,-22.8,-24.6}}{{-3.6,-5.4,-7.2,-9.0,-10.8,-12.6,-14.4,-16.2,-18.0,-19.8,-21.6,-23.4,-25.2}}{{-4.2,-6.0,-7.8,-9.6,-11.4,-13.2,-15.0,-16.8,-18.6,-20.4,-22.2,-24.0,-25.8}};
+\node(fig) at (3,-3){\includegraphics[width=8cm]{/Users/lxb/Documents/yyc/latex/pics/Q3:cloud4_crop.png}};
+\node(fig1) at (16,-23){\includegraphics[width = 6cm]{/Users/lxb/Documents/yyc/scripts/booksproject/the_tale_of_peter_rabbit/IMG_2175_crop.jpg}};
+\end{tikzpicture}
+\end{textblock*}
+\null\newpage
+\thispagestyle{empty}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{20cm}(0cm, 0cm)
+\begin{tikzpicture}
+\node(txt) at (16,0)[fontscale=0.4]{GM Brothers@2017};
+\drawline{{-3,-4.8,-6.6,-8.4,-10.2,-12.0,-13.8,-15.6,-17.4,-19.2,-21.0,-22.8,-24.6}}{{-3.6,-5.4,-7.2,-9.0,-10.8,-12.6,-14.4,-16.2,-18.0,-19.8,-21.6,-23.4,-25.2}}{{-4.2,-6.0,-7.8,-9.6,-11.4,-13.2,-15.0,-16.8,-18.6,-20.4,-22.2,-24.0,-25.8}};
+\node(fig) at (3,-3){\includegraphics[width=8cm]{/Users/lxb/Documents/yyc/latex/pics/Q4:cloud5_crop.png}};
+\node(fig1) at (16,-23){\includegraphics[width = 6cm]{/Users/lxb/Documents/yyc/scripts/booksproject/the_tale_of_peter_rabbit/IMG_2177_crop.jpg}};
+\end{tikzpicture}
+\end{textblock*}
+\null\newpage
+\thispagestyle{empty}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{20cm}(0cm, 0cm)
+\begin{tikzpicture}
+\node(txt) at (16,0)[fontscale=0.4]{GM Brothers@2017};
+\drawline{{-3,-4.8,-6.6,-8.4,-10.2,-12.0,-13.8,-15.6,-17.4,-19.2,-21.0,-22.8,-24.6}}{{-3.6,-5.4,-7.2,-9.0,-10.8,-12.6,-14.4,-16.2,-18.0,-19.8,-21.6,-23.4,-25.2}}{{-4.2,-6.0,-7.8,-9.6,-11.4,-13.2,-15.0,-16.8,-18.6,-20.4,-22.2,-24.0,-25.8}};
+\node(fig) at (3,-3){\includegraphics[width=8cm]{/Users/lxb/Documents/yyc/latex/pics/Q5:star1_crop.png}};
+\node(fig1) at (16,-23){\includegraphics[width = 6cm]{/Users/lxb/Documents/yyc/scripts/booksproject/the_tale_of_peter_rabbit/IMG_2178_crop.jpg}};
+\end{tikzpicture}
+\end{textblock*}
+\null\newpage
+\thispagestyle{empty}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{20cm}(0cm, 0cm)
+\begin{tikzpicture}
+\node(txt) at (16,0)[fontscale=0.4]{GM Brothers@2017};
+\drawline{{-3,-4.8,-6.6,-8.4,-10.2,-12.0,-13.8,-15.6,-17.4,-19.2,-21.0,-22.8,-24.6}}{{-3.6,-5.4,-7.2,-9.0,-10.8,-12.6,-14.4,-16.2,-18.0,-19.8,-21.6,-23.4,-25.2}}{{-4.2,-6.0,-7.8,-9.6,-11.4,-13.2,-15.0,-16.8,-18.6,-20.4,-22.2,-24.0,-25.8}};
+\node(fig) at (3,-3){\includegraphics[width=8cm]{/Users/lxb/Documents/yyc/latex/pics/Q5:star2_crop.png}};
+\node(fig1) at (16,-23){\includegraphics[width = 6cm]{/Users/lxb/Documents/yyc/scripts/booksproject/the_tale_of_peter_rabbit/IMG_2180_crop.jpg}};
+\end{tikzpicture}
+\end{textblock*}
+\null\newpage
+\thispagestyle{empty}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{20cm}(0cm, 0cm)
+\begin{tikzpicture}
+\node(txt) at (16,0)[fontscale=0.4]{GM Brothers@2017};
+\drawline{{-3,-4.8,-6.6,-8.4,-10.2,-12.0,-13.8,-15.6,-17.4,-19.2,-21.0,-22.8,-24.6}}{{-3.6,-5.4,-7.2,-9.0,-10.8,-12.6,-14.4,-16.2,-18.0,-19.8,-21.6,-23.4,-25.2}}{{-4.2,-6.0,-7.8,-9.6,-11.4,-13.2,-15.0,-16.8,-18.6,-20.4,-22.2,-24.0,-25.8}};
+\node(fig) at (3,-3){\includegraphics[width=8cm]{/Users/lxb/Documents/yyc/latex/pics/Q6:star3_crop.png}};
+\node(fig1) at (16,-23){\includegraphics[width = 6cm]{/Users/lxb/Documents/yyc/scripts/booksproject/the_tale_of_peter_rabbit/IMG_2184_crop.jpg}};
+\end{tikzpicture}
+\end{textblock*}
+\null\newpage
+\thispagestyle{empty}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{20cm}(0cm, 0cm)
+\begin{tikzpicture}
+\node(txt) at (16,0)[fontscale=0.4]{GM Brothers@2017};
+\drawline{{-3,-4.8,-6.6,-8.4,-10.2,-12.0,-13.8,-15.6,-17.4,-19.2,-21.0,-22.8,-24.6}}{{-3.6,-5.4,-7.2,-9.0,-10.8,-12.6,-14.4,-16.2,-18.0,-19.8,-21.6,-23.4,-25.2}}{{-4.2,-6.0,-7.8,-9.6,-11.4,-13.2,-15.0,-16.8,-18.6,-20.4,-22.2,-24.0,-25.8}};
+\node(fig) at (3,-3){\includegraphics[width=8cm]{/Users/lxb/Documents/yyc/latex/pics/Q7:star4_crop.png}};
+\node(fig1) at (16,-23){\includegraphics[width = 6cm]{/Users/lxb/Documents/yyc/scripts/booksproject/the_tale_of_peter_rabbit/IMG_2194_crop.jpg}};
+\end{tikzpicture}
+\end{textblock*}
+\null\newpage
+\thispagestyle{empty}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{20cm}(0cm, 0cm)
+\begin{tikzpicture}
+\node(txt) at (16,0)[fontscale=0.4]{GM Brothers@2017};
+\drawline{{-3,-4.8,-6.6,-8.4,-10.2,-12.0,-13.8,-15.6,-17.4,-19.2,-21.0,-22.8,-24.6}}{{-3.6,-5.4,-7.2,-9.0,-10.8,-12.6,-14.4,-16.2,-18.0,-19.8,-21.6,-23.4,-25.2}}{{-4.2,-6.0,-7.8,-9.6,-11.4,-13.2,-15.0,-16.8,-18.6,-20.4,-22.2,-24.0,-25.8}};
+\node(fig) at (3,-3){\includegraphics[width=8cm]{/Users/lxb/Documents/yyc/latex/pics/Q8:cloud1_crop.png}};
+\node(fig1) at (16,-23){\includegraphics[width = 6cm]{/Users/lxb/Documents/yyc/scripts/booksproject/the_tale_of_peter_rabbit/IMG_2196_crop.jpg}};
+\end{tikzpicture}
+\end{textblock*}
+\null\newpage
+\thispagestyle{empty}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{20cm}(0cm, 0cm)
+\begin{tikzpicture}
+\node(txt) at (16,0)[fontscale=0.4]{GM Brothers@2017};
+\drawline{{-3,-4.8,-6.6,-8.4,-10.2,-12.0,-13.8,-15.6,-17.4,-19.2,-21.0,-22.8,-24.6}}{{-3.6,-5.4,-7.2,-9.0,-10.8,-12.6,-14.4,-16.2,-18.0,-19.8,-21.6,-23.4,-25.2}}{{-4.2,-6.0,-7.8,-9.6,-11.4,-13.2,-15.0,-16.8,-18.6,-20.4,-22.2,-24.0,-25.8}};
+\node(fig) at (3,-3){\includegraphics[width=8cm]{/Users/lxb/Documents/yyc/latex/pics/Q9:cloud3_crop.png}};
+\node(fig1) at (16,-23){\includegraphics[width = 6cm]{/Users/lxb/Documents/yyc/scripts/booksproject/the_tale_of_peter_rabbit/IMG_2175_crop.jpg}};
+\end{tikzpicture}
+\end{textblock*}
+\null\newpage

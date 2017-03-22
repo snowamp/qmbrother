@@ -1,0 +1,96 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass[letterpaper]{article}
+\usepackage{geometry}
+\usepackage[absolute]{textpos}
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+\usepackage[colorlinks]{hyperref}
+
+\usepackage{relsize}
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun}
+\usepackage{calc}
+
+\geometry{left=1cm, right=0cm}
+
+\tikzset{fontscale/.style = {font=\relsize{#1}}}
+
+\newcommand{\loopy}[2]{
+    \begin{tikzpicture}
+   	\draw[fill = #1](0,0) circle[radius=5cm];
+	\draw[](0,0) circle[radius=2pt];
+        \foreach \x / \y /\z in #2 {
+        	\node(txt) at ({\y*cos(\z)},{\y*sin(\z)}) [rotate around={\z:(0cm,0cm)}, fontscale=3]{\x};
+            
+         }
+    \end{tikzpicture}
+}
+
+\newcommand{\inner}[5]{
+    \begin{tikzpicture}[overlay]
+    	
+   	\draw[fill = #1](0,0) circle[radius=5cm];
+	\draw[](0,0) circle[radius=2pt];
+	\node(txt2) at (-2,3.2)[fontscale=3]{{#2}};
+	\node (fig) at (-2, 0) {\includegraphics[width=3cm]{#3}};
+	\node(fig1) at(0,-4){\includegraphics[width=1cm]{gmbrothers.png}};
+        %\node(rect) at (3, 0) [draw, minimum width=5cm, minimum height=1cm]{};
+        \foreach \x / \y in #4{
+        \node(txt) at (\y,0)[fontscale=3] {\x};
+        }
+         \foreach \x in #5{
+        \draw[thick, dashed](\x, 0.25) -- (\x, -0.25);
+        }
+        
+        \draw[dashed, thick] (0.75, 0.25) --(5, 0.25) --(5, -0.25) --(0.75, -0.25) --cycle;
+        
+        
+        
+    \end{tikzpicture}
+}
+
+
+\begin{document}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(1cm, 2cm)
+\loopy{red!10}{{b/1.00/0.00,t/1.00/51.43,f/1.00/102.86,c/1.00/154.29,w/1.00/257.14,w/1.00/257.14}}
+\end{textblock*}
+\begin{textblock*}{10cm}(15cm, 17cm)
+\inner{red!10}{all}{./pics/cat4.png}{{a/1.50/0,l/2.00/0,l/2.50/0}}{{1.25,2.75}}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(1cm, 2cm)
+\loopy{green!10}{{l/2.00/0.00,k/3.00/0.00,s/1.00/60.00,h/1.50/60.00,n/2.50/60.00,k/2.00/120.00,t/3.00/120.00,b/2.00/180.00,t/3.00/180.00,k/2.00/240.00,t/3.00/240.00,w/1.00/300.00,h/1.50/300.00,h/1.50/300.00}}
+\end{textblock*}
+\begin{textblock*}{10cm}(15cm, 17cm)
+\inner{green!10}{i e}{./pics/cat4.png}{{i/2.00/0,e/3.00/0}}{{1.75,2.25,2.75,3.25}}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(1cm, 2cm)
+\loopy{green!10}{{n/1.00/0.00,h/1.00/90.00,f/1.00/180.00,f/1.00/180.00}}
+\end{textblock*}
+\begin{textblock*}{10cm}(15cm, 17cm)
+\inner{green!10}{ear}{./pics/cat3.png}{{e/1.50/0,a/2.00/0,r/2.50/0}}{{1.25,2.75}}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(1cm, 2cm)
+\loopy{yellow!20}{{s/1.00/0.00,h/1.50/0.00,m/2.50/0.00,g/2.00/36.00,v/3.00/36.00,t/2.00/72.00,k/3.00/72.00,r/2.00/108.00,k/3.00/108.00,g/2.00/144.00,m/3.00/144.00,c/2.00/180.00,k/3.00/180.00,m/2.00/216.00,k/3.00/216.00,s/1.00/252.00,h/1.50/252.00,k/2.50/252.00,t/2.00/288.00,m/3.00/288.00,c/2.00/324.00,c/2.00/324.00}}
+\end{textblock*}
+\begin{textblock*}{10cm}(15cm, 17cm)
+\inner{yellow!20}{a e}{./pics/cat6.png}{{a/2.00/0,e/3.00/0}}{{1.75,2.25,2.75,3.25}}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(1cm, 2cm)
+\loopy{yellow!20}{{a/1.00/0.00,l/1.50/0.00,w/2.00/0.00,s/3.50/0.00,p/2.00/60.00,l/2.50/60.00,d/3.00/120.00,s/3.00/180.00,a/2.00/240.00,w/2.50/240.00,w/2.50/240.00}}
+\end{textblock*}
+\begin{textblock*}{10cm}(15cm, 17cm)
+\inner{yellow!20}{ay}{./pics/cat1.png}{{a/2.50/0,y/3.00/0}}{{2.25,3.25}}
+\end{textblock*}
+\null\newpage
+
+
+\end{document}

@@ -1,0 +1,203 @@
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{Your character is running late and has to take the bus instead of walking.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant1.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{At school or work, your character gets an unusual assignment.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant11.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{Your character finds something he or she had lost.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant13.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{Your character has to choose between two things that he or she loves.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant14.jpg}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{Your character is out talking a walk when he or she sees a dog that…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant15.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{Your character tries a new restaurant. The chef comes out and tells him or her…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant16.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{Your character finally gets to take an exciting vacation to beach. On the shore, he or she finds…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant17.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{During a thunderstorm, your character suddenly remembers…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant18.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{Your character leaves in the morning but has to go back home after forgetting to bring…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant19.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{Your character has an accident and…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant2.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{At a basketball game, your character is surprised when…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant20.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{Your character gets an interesting offer from a friend. Does he or she take it?}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant21.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{Your character has an argument with his or her best friend. They argued because your character said…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant22.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{Your character meets someone with the same name.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant23.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{On your character’s favorite holiday, he or she is excited to…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant24.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{Your character decides to take a new class or join a new club. All goes well until the teacher or club leader says…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant25.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{Your character gets a visit from an old friend—but the friend has changed and doesn’t seem to be the same person.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant3.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{Your character has to give a speech. On the way up to the podium…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant4.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{Your character meets his or her favorite celebrity. When your character asks for a picture…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant5.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{Your character finds a wallet with a large wad of bills stuffed inside lying on the street. What does he or she do?}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant6.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{Your character has the chance to move to a new town. Does he or she take it?}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant7.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{At the grocery store, your character sees __________ in the produce section. He or she decides to…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant8.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{Your character sits down to write a story. He or she is inspired by…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant9.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{Your character receives a surprise package in the mail. What’s inside?}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant1.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{Your character has an especially bad toothache and goes to the dentist. At the dentist’s office, your character is surprised to see…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant11.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{Your character goes to see a movie that he or she has been waiting to see for months—only to be seated next to someone who is talking loudly the whole time.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant13.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{Your character wins a big prize from a local radio contest.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant14.jpg}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{When your character’s birthday comes around, he or she is excited to enjoy a favorite slice of cake. Your character is surprised, however, when the cake turns out to be…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant15.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{One night, your character wakes up from an especially realistic dream. In the dream, he or she was…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant16.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{Your character is out at the mall and sees a bunch of television cameras from the local news station. Suddenly, a reporter comes up to your character and wants to interview him or her because…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant17.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{You’re is digging in the garden and find a fist-sized nugget of gold. There’s more where that came from in this hilarious story of sudden wealth.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant18.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{Write about something ugly — war, fear, hate, or cruelty–but find the beauty (silver lining) in it or something good that comes out of it.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant19.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{An asteroid and a meteoroid collide near Earth, and fragments rain down onto the planet’s surface, wreaking havoc. Some of those fragments contain surprising elements: fossils that prove life exists elsewhere in the galaxy, for example.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant2.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{A kid comes out of the school bathroom with toilet paper dangling from his or her waistband.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant20.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{Revisit your earliest memories of learning about faith, religion, or spirituality.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant21.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{Use all of the following words in a piece of writing: bit, draw, flex, perilous, bubble, corner, rancid, pound, high, open.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant22.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{Write a poem about a first romantic (dare I say: sexual) experience or encounter.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant23.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{He turned the key in the lock and opened the door. To his horror, he saw…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant24.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{Silvery flakes drifted downward, glittering in the bright light of the harvest moon. The blackbird soared.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant25.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{Tell bad drivers, rude customers, and evil dictators how grateful you are for what they’ve done. Do it with a wink and a smile.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant3.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{Write a story about a detective solving a crime that was committed against his or her partner or a crime that his or her partner committed.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant4.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{Three children are sitting on a log near a stream. One of them looks up at the sky and says…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant5.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{There is a magic talisman that allows its keeper to read minds. It falls into the hands of a young politician…}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant6.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{We’ve seen cute and cuddly dragons, mean and vicious dragons, and noble dragons. Write a story about a different kind of dragon.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant7.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{Use all of the following words in a piece of writing: dash, hard, staple, billboard, part, circle, flattened.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant8.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{A doctor puts his hand on his patient’s arm and says, “You or the baby will survive. Not both. I’m sorry.”}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant9.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{Write about when you did something bad and got away with it.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant1.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{The kids were raised on the mantra “Family is everything.” What happens when they find out their parents aren’t who they pretended to be? Will the family fall apart?}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant11.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{You walk into your house and it’s completely different — furniture, decor, all changed. It doesn’t look like the same house anymore. And nobody’s home.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant13.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{Turn ordinary animals into monsters that prey on humans: dog-sized rats, killer rabbits, or a pack of rabid mountain lions. Give the animals intelligence and set them loose.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant14.jpg}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{A twinkling eye can mean many things. Write a poem about a twinkle in someone’s eye.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant15.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{What determines an action or person as good or evil? Who gets to decide what or who is good or evil?}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant16.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(14cm, 13cm)
+\Cloud{0}{0}{Write about your body.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant17.png}
+\end{textblock*}
+\begin{textblock*}{10cm}(7cm, 20cm)
+\Cloud{0}{0}{Have you ever been just about to drift off to sleep only to be roused by a spontaneous memory of an embarrassing moment from your past?}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant18.png}
+\end{textblock*}
+\null\newpage
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{10cm}(7cm, 6cm)
+\Cloud{0}{0}{Use all of the following words in a piece of writing: feast, fire, modify, squash, robbed, forgotten, under-stated.}{/Users/lxb/Documents/yyc/scripts/booksproject/pics/plant19.png}
+\end{textblock*}
+\null\newpage

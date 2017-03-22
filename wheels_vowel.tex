@@ -1,0 +1,431 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass[letterpaper]{article}
+\usepackage{geometry}
+\usepackage[absolute]{textpos}
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+\usepackage[colorlinks]{hyperref}
+
+\usepackage{relsize}
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun}
+\usepackage{calc}
+
+\geometry{left=0cm, right=0cm}
+
+\tikzset{fontscale/.style = {font=\relsize{#1}}}
+
+\newcommand{\loopy}[2]{
+    \begin{tikzpicture}
+   	\draw[fill = #1](0,0) circle[radius=6.4cm];
+	\draw[](0,0) circle[radius=2pt];
+        \foreach \x / \y /\z in #2 {
+        	\node(txt) at ({\y*cos(\z)},{\y*sin(\z)}) [rotate around={\z:(0cm,0cm)}, fontscale=3]{\x};
+            
+         }
+    \end{tikzpicture}
+}
+
+\newcommand{\inner}[6]{
+    \begin{tikzpicture}[overlay]
+    	
+   	\draw[fill = #5](0,0) circle[radius=5cm];
+	\draw[](0,0) circle[radius=2pt];
+	\node(txt) at (2,2.2)[fontscale=4]{#2};
+	\node(txt1) at (-2, 2.2)[fontscale=2]{#3};
+	\node(txt2) at (-2,3.2)[fontscale=3]{\uppercase{#6}};
+	\node (fig) at (-2, 0) {\includegraphics[width=3cm]{#4}};
+	\node(fig1) at(0,-4){\includegraphics[width=1cm]{gmbrothers.png}};
+        %\node(rect) at (3, 0) [draw, minimum width=5cm, minimum height=1cm]{};
+        \foreach \x / \y in #1{
+        \node(txt) at (\y,0)[fontscale=3] {\x};
+        }
+       
+        \draw[thick,dashed](2.2,0.5) -- (2.2,-0.5);
+        \draw[thick,dashed](3.3,0.5) --(3.3,-0.5);
+        \draw[thick,dashed](5,0.5) --(5,-0.5);
+        \draw[thick,dashed](0.5,0.5) --(0.5,-0.5);
+        \draw[thick,dashed](0.5,0.5) --(5,0.5);
+        \draw[thick,dashed](0.5,-0.5) --(5, -0.5);
+        
+    \end{tikzpicture}
+}
+\newcommand{\innerfar}[6]{
+    \begin{tikzpicture}[overlay]
+    	
+   	\draw[fill = #5](0,0) circle[radius=5cm];
+	\draw[](0,0) circle[radius=2pt];
+	\node(txt) at (2,2.2)[fontscale=4]{#2};
+	\node(txt1) at (-2, 2.2)[fontscale=2]{#3};
+	\node(txt2) at (-2,3.2)[fontscale=3]{\uppercase{#6}};
+	\node (fig) at (-2, 0) {\includegraphics[width=3cm]{#4}};
+	\node(fig1) at(0,-4){\includegraphics[width=1cm]{/Users/lxb/Documents/yyc/latex/gmbrothers.png}};
+        %\node(rect) at (3, 0) [draw, minimum width=5cm, minimum height=1cm]{};
+        \foreach \x / \y in #1{
+        \node(txt) at (\y,0)[fontscale=3] {\x};
+        }
+        \draw[thick,dashed](2.7,0.5) -- (2.7,-0.5);
+        \draw[thick,dashed](3.8,0.5) --(3.8,-0.5);
+        \draw[thick,dashed](5,0.5) --(5,-0.5);
+        \draw[thick,dashed](0.5,0.5) --(0.5,-0.5);
+        \draw[thick,dashed](0.5,0.5) --(5,0.5);
+        \draw[thick,dashed](0.5,-0.5) --(5, -0.5);
+        
+    \end{tikzpicture}
+}
+
+
+
+\begin{document}
+\def\colorstring{red!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{s/2.0/0,b/2.0/60,b/2.0/120,n/3.5/120,d/2.0/180,p/3.5/180,d/2.0/240,r/3.5/240,f/2.0/300,d/3.5/300,看/5.3/0,见/6/0,蜜/5.3/60,蜂/6/60,是/5.3/120,有/6/120,深/5.3/180,的/6/180,鹿/5.3/240,喂/5.3/300,养/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/eevee.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{e/2.5,e/3}}{ee}{EE-vee}{\picstring}{\colorstring}{eevee}
+\end{textblock*}
+\null\newpage
+\def\colorstring{green!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{f/2.0/0,l/3.5/0,f/2.0/60,t/3.5/60,r/2.0/120,g/1.5/120,n/3.5/120,k/2.0/180,p/3.5/180,n/2.0/240,d/3.5/240,s/2.0/300,m/3.5/300,心/5.3/0,情/6/0,脚/5.3/60,绿/5.3/120,色/6/120,保/5.3/180,持/6/180,必/5.3/240,要/6/240,似/5.3/300,乎/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/eevee.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{e/2.5,e/3}}{ee}{EE-vee}{\picstring}{\colorstring}{eevee}
+\end{textblock*}
+\null\newpage
+\def\colorstring{blue!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{s/2.0/0,n/3.5/0,h/2.0/60,s/1.5/60,p/3.5/60,l/2.0/120,s/1.5/120,p/3.5/120,r/2.0/180,h/1.5/180,t/1.0/180,r/2.0/240,t/1.5/240,w/2.0/300,k/3.5/300,看/5.3/0,见/6/0,绵/5.3/60,羊/6/60,睡/5.3/120,眠/6/120,三/5.3/180,树/5.3/240,一/5.3/300,周/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/eevee.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{e/2.5,e/3}}{ee}{EE-vee}{\picstring}{\colorstring}{eevee}
+\end{textblock*}
+\null\newpage
+\def\colorstring{yellow!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{f/2.0/0,l/3.5/0,r/2.0/60,f/1.5/60,r/2.0/120,t/1.5/120,s/1.0/120,t/3.5/120,t/2.0/180,t/3.5/180,h/4.0/180,感/5.3/0,觉/6/0,解/5.3/60,放/6/60, /5.3/120,马/6/120,牙/5.3/180,齿/6/180}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/eevee.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{e/2.5,e/3}}{ee}{EE-vee}{\picstring}{\colorstring}{eevee}
+\end{textblock*}
+\null\newpage
+\def\colorstring{red!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{s/2.0/0,r/2.0/60,d/1.5/60,l/2.0/120,r/2.0/180,t/1.5/180,s/1.0/180,n/2.0/240,g/1.5/240,j/2.0/300,看/5.3/0,见/6/0,拉/5.3/60,拖/6/60,法/5.3/120,律/6/120,吸/5.3/180,管/6/180,咬/5.3/240,下/5.3/300,颚/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/pawniard.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{a/2.5,w/3}}{aw}{PAWN-yard}{\picstring}{\colorstring}{pawniard}
+\end{textblock*}
+\null\newpage
+\def\colorstring{green!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{d/2.0/0,m/2.0/60,l/2.0/120,p/1.5/120,w/2.0/180,a/1.5/180,l/2.0/240,p/2.0/300,天/5.3/0,5/5.3/60,月/6/60,玩/5.3/120,远/5.3/180,安/5.3/240,置/6/240,工/5.3/300,资/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/inkay.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{a/2.5,y/3}}{ay}{in-KAY}{\picstring}{\colorstring}{inkay}
+\end{textblock*}
+\null\newpage
+\def\colorstring{blue!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{s/2.0/0,t/2.0/60,s/1.5/60,d/2.0/120,o/1.5/120,t/1.0/120,w/2.0/180,w/2.0/240,l/1.5/240,a/1.0/240,s/3.5/240,m/2.0/300,b/3.5/300,e/4.0/300,说/5.3/0,逗/5.3/60,留/6/60,当/5.3/120,今/6/120,办/5.3/180,法/6/180,总/5.3/240,是/6/240,可/5.3/300,能/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/inkay.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{a/2.5,y/3}}{ay}{in-KAY}{\picstring}{\colorstring}{inkay}
+\end{textblock*}
+\null\newpage
+\def\colorstring{yellow!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{h/2.0/0,t/3.5/0,t/2.0/60,n/3.5/60,t/2.0/120,e/1.5/120,r/1.0/120,n/3.5/120,t/2.0/180,a/1.5/180,S/1.0/180,d/3.5/180,a/4.0/180,y/4.5/180,t/2.0/240,t/3.5/240,l/4.0/240,e/4.5/240,b/2.0/300,n/3.5/300,伤/5.3/0,害/6/0,回/5.3/60,转/6/60,返/5.3/120,回/6/120, /5.3/180,周/6/180,乌/5.3/240,龟/6/240,灼/5.3/300,烧/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/lanturn.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{u/2.5,r/3}}{ur}{LAN-turn}{\picstring}{\colorstring}{lanturn}
+\end{textblock*}
+\null\newpage
+\def\colorstring{red!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{l/3.5/0,b/2.0/60,l/3.5/60,c/2.0/120,l/3.5/120,f/2.0/180,l/3.5/180,m/2.0/240,s/1.5/240,l/3.5/240,t/2.0/300,k/3.5/300,一/5.3/0,切/6/0,球/5.3/60,电/5.3/120,话/6/120,秋/5.3/180,天/6/180,小/5.3/240,的/6/240,交/5.3/300,谈/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/baltoy.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{a/2.5,l/3}}{al}{BAL-toy}{\picstring}{\colorstring}{baltoy}
+\end{textblock*}
+\null\newpage
+\def\colorstring{green!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{t/2.0/0,l/3.5/0,w/2.0/60,k/3.5/60,s/3.5/120,o/4.0/120,s/2.0/180,t/3.5/180,h/2.0/240,s/1.5/240,l/3.5/240,高/5.3/0,的/6/0,走/5.3/60,路/6/60,也/5.3/120,盐/5.3/180,应/5.3/240,该/6/240}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/baltoy.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{a/2.5,l/3}}{al}{BAL-toy}{\picstring}{\colorstring}{baltoy}
+\end{textblock*}
+\null\newpage
+\def\colorstring{blue!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{l/2.0/0,c/1.5/0,n/3.5/0,t/3.5/60,m/2.0/120,t/3.5/120,r/2.0/180,d/3.5/180,s/2.0/240,s/2.0/300,t/3.5/300,清/5.3/0,理/6/0,吃/5.3/60,肉/5.3/120,阅/5.3/180,读/6/180,大/5.3/240,海/6/240,座/5.3/300,位/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/horsea.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{e/2.5,a/3}}{ea}{HOR-sea}{\picstring}{\colorstring}{horsea}
+\end{textblock*}
+\null\newpage
+\def\colorstring{yellow!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{t/2.0/0,c/3.5/0,h/4.0/0,b/2.0/60,c/3.5/60,h/4.0/60,r/2.0/120,d/1.5/120,m/3.5/120,s/3.5/180,t/4.0/180,h/2.0/240,t/3.5/240,l/2.0/300,v/3.5/300,e/4.0/300,教/5.3/0,导/6/0,海/5.3/60,滩/6/60,梦/5.3/120,东/5.3/180,方/6/180,热/5.3/240,分/5.3/300,别/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/horsea.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{e/2.5,a/3}}{ea}{HOR-sea}{\picstring}{\colorstring}{horsea}
+\end{textblock*}
+\null\newpage
+\def\colorstring{red!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{m/2.0/0,n/3.5/0,l/2.0/60,p/1.5/60,s/3.5/60,e/4.0/60,r/2.0/120,l/3.5/120,t/2.0/180,m/3.5/180,h/2.0/240,w/1.5/240,t/3.5/240,p/2.0/300,n/3.5/300,u/4.0/300,t/4.5/300,暗/5.3/0,示/6/0,高/5.3/60,兴/6/60,真/5.3/120,的/6/120, /5.3/180,团/6/180,小/5.3/240,麦/6/240, /5.3/300,花/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/horsea.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{e/2.5,a/3}}{ea}{HOR-sea}{\picstring}{\colorstring}{horsea}
+\end{textblock*}
+\null\newpage
+\def\colorstring{green!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{r/2.0/0,s/3.5/0,o/4.0/0,n/4.5/0,原/5.3/0,因/6/0}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/horsea.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{e/2.5,a/3}}{ea}{HOR-sea}{\picstring}{\colorstring}{horsea}
+\end{textblock*}
+\null\newpage
+\def\colorstring{blue!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{r/3.5/0,r/2.0/60,a/1.5/60,n/3.5/60,d/4.0/60,f/2.0/120,n/3.5/120,d/4.0/120,r/2.0/180,g/1.5/180,n/3.5/180,d/4.0/180,h/2.0/240,r/3.5/240,m/2.0/300,s/3.5/300,e/4.0/300,我/5.3/0,们/6/0,大/5.3/60,概/6/60,创/5.3/120,办/6/120,土/5.3/180,地/6/180,小/5.3/240,时/6/240,家/5.3/300,鼠/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/bellsprout.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{o/2.5,u/3}}{ou}{BELL-sprout}{\picstring}{\colorstring}{bellsprout}
+\end{textblock*}
+\null\newpage
+\def\colorstring{yellow!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{m/2.0/0,t/3.5/0,h/4.0/0,r/2.0/60,n/3.5/60,d/4.0/60,s/2.0/120,n/3.5/120,d/4.0/120,s/2.0/180,t/3.5/180,h/4.0/180,口/5.3/0,腔/6/0,回/5.3/60,合/6/60,听/5.3/120,南/5.3/180,方/6/180}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/bellsprout.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{o/2.5,u/3}}{ou}{BELL-sprout}{\picstring}{\colorstring}{bellsprout}
+\end{textblock*}
+\null\newpage
+\def\colorstring{red!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{n/2.0/0,l/3.5/0,r/2.0/60,n/3.5/60,r/2.0/120,t/1.5/120,n/3.5/120,r/2.0/180,f/1.5/180,a/1.0/180,d/3.5/180,g/2.0/240,a/1.5/240,n/3.5/240,m/2.0/300,l/3.5/300,指/5.3/0,甲/6/0,降/5.3/60,雨/6/60,列/5.3/120,车/6/120,害/5.3/180,怕/6/180,又/5.3/240,一/6/240,邮/5.3/300,件/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/raichu.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{a/2.5,i/3}}{ai}{RYE-choo}{\picstring}{\colorstring}{raichu}
+\end{textblock*}
+\null\newpage
+\def\colorstring{green!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{p/2.0/0,n/3.5/0,t/4.0/0,w/2.0/60,t/3.5/60,g/2.0/120,a/1.5/120,n/3.5/120,s/4.0/120,t/4.5/120,r/2.0/180,s/3.5/180,e/4.0/180,油/5.3/0,漆/6/0,等/5.3/60,反/5.3/120,对/6/120,加/5.3/180,薪/6/180}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/raichu.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{a/2.5,i/3}}{ai}{RYE-choo}{\picstring}{\colorstring}{raichu}
+\end{textblock*}
+\null\newpage
+\def\colorstring{blue!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{c/2.0/0,e/3.5/60,f/2.0/120,f/2.0/180,m/3.5/180,h/2.0/240,d/3.5/240,p/2.0/300,k/3.5/300,汽/5.3/0,车/6/0,是/5.3/60,有/6/60,远/5.3/120,的/6/120,种/5.3/180,田/6/180,困/5.3/240,难/6/240,公/5.3/300,园/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/larvitar.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{a/2.5,r/3}}{ar}{LAR-vuh-tar}{\picstring}{\colorstring}{larvitar}
+\end{textblock*}
+\null\newpage
+\def\colorstring{yellow!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{p/2.0/0,t/3.5/0,t/2.0/60,s/1.5/60,t/3.5/60,t/3.5/120,b/2.0/180,k/3.5/180,b/2.0/240,n/3.5/240,d/2.0/300,k/3.5/300,局/5.3/0,部/6/0,开/5.3/60,始/6/60,艺/5.3/120,术/6/120,树/5.3/180,皮/6/180,仓/5.3/240,库/6/240,夜/5.3/300,色/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/larvitar.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{a/2.5,r/3}}{ar}{LAR-vuh-tar}{\picstring}{\colorstring}{larvitar}
+\end{textblock*}
+\null\newpage
+\def\colorstring{red!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{l/2.0/0,g/3.5/0,e/4.0/0,y/2.0/60,d/3.5/60,h/2.0/120,c/1.5/120,g/3.5/120,e/4.0/120,h/2.0/180,d/3.5/180,e/4.0/180,n/4.5/180,巨/5.3/0,大/6/0,庭/5.3/60,院/6/60,费/5.3/120,用/6/120,硬/5.3/180,的/6/180}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/larvitar.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{a/2.5,r/3}}{ar}{LAR-vuh-tar}{\picstring}{\colorstring}{larvitar}
+\end{textblock*}
+\null\newpage
+\def\colorstring{green!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{f/2.0/0,f/2.0/60,e/1.5/60,b/1.0/60,e/3.5/60,c/2.0/120,n/3.5/120,o/2.0/180,d/1.5/180,o/2.0/240,l/1.5/240,f/1.0/240,h/2.0/300,s/3.5/300,e/4.0/300,为/5.3/0,之/5.3/60,前/6/60,玉/5.3/120,米/6/120,门/5.3/180,地/5.3/240,板/6/240,马/5.3/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/torchic.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{o/2.5,r/3}}{or}{TOR-chick}{\picstring}{\colorstring}{torchic}
+\end{textblock*}
+\null\newpage
+\def\colorstring{blue!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{m/2.0/0,e/3.5/0,n/2.0/60,t/3.5/60,h/4.0/60,t/2.0/180,s/1.5/180,e/3.5/180,t/2.0/240,s/1.5/240,y/3.5/240,b/2.0/300,n/3.5/300,更/5.3/0,多/6/0,北/5.3/60,方/6/60,或/5.3/120,者/6/120,店/5.3/180,铺/6/180,故/5.3/240,事/6/240,出/5.3/300,生/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/torchic.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{o/2.5,r/3}}{or}{TOR-chick}{\picstring}{\colorstring}{torchic}
+\end{textblock*}
+\null\newpage
+\def\colorstring{yellow!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{c/2.0/0,n/3.5/0,e/4.0/0,r/4.5/0,f/2.0/60,e/3.5/60,s/4.0/60,t/4.5/60,f/2.0/120,m/3.5/120,d/3.5/180,e/4.0/180,r/4.5/180,h/2.0/240,s/1.5/240,t/3.5/240,s/2.0/300,r/3.5/300,y/4.0/300,拐/5.3/0,角/6/0,林/5.3/60,地/6/60,形/5.3/120,态/6/120,规/5.3/180,则/6/180,短/5.3/240,抱/5.3/300,歉/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/torchic.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{o/2.5,r/3}}{or}{TOR-chick}{\picstring}{\colorstring}{torchic}
+\end{textblock*}
+\null\newpage
+\def\colorstring{red!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{p/2.0/0,s/1.5/0,t/3.5/0,t/2.0/60,s/1.5/60,y/3.5/60,m/2.0/120,o/1.5/120,t/1.0/120,r/3.5/120,o/4.0/120,w/4.5/120,运/5.3/0,动/6/0,故/5.3/60,事/6/60, /5.3/120,将/6/120}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/torchic.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\inner {{o/2.5,r/3}}{or}{TOR-chick}{\picstring}{\colorstring}{torchic}
+\end{textblock*}
+\null\newpage
+\def\colorstring{green!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{t/2.5/0,f/2.0/0,a/1.5/0,h/2.5/60,t/2.0/60,o/1.5/60,m/1.0/60,h/2.5/120,t/2.0/120,o/1.5/120,v/2.5/180,o/2.0/180,w/2.5/240,e/4.0/240,t/2.5/300,t/2.0/300,e/1.5/300,b/1.0/300,之/5.3/0,后/6/0,母/5.3/60,亲/6/60,其/5.3/120,他/6/120, /5.3/180,结/6/180,是/5.3/240,变/5.3/300,好/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/servine.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\innerfar {{e/3,r/3.5}}{er}{SUR-vine}{\picstring}{\colorstring}{servine}
+\end{textblock*}
+\null\newpage
+\def\colorstring{blue!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{n/2.5/0,r/2.0/0,o/1.5/0,c/1.0/0,v/2.5/60,o/2.0/60,c/1.5/60,s/2.5/120,e/2.0/120,d/1.5/120,t/4.0/120,n/2.5/180,n/2.0/180,i/1.5/180,d/1.0/180,v/2.5/240,e/2.0/240,w/2.5/300,o/2.0/300,l/1.5/300,f/1.0/300,角/5.3/0,落/6/0,毯/5.3/60,子/6/60,沙/5.3/120,漠/6/120,晚/5.3/180,餐/6/180,曾/5.3/240,经/6/240,花/5.3/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/servine.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\innerfar {{e/3,r/3.5}}{er}{SUR-vine}{\picstring}{\colorstring}{servine}
+\end{textblock*}
+\null\newpage
+\def\colorstring{yellow!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{t/2.5/0,a/2.0/0,l/1.5/0,t/2.5/60,t/2.0/60,e/1.5/60,l/1.0/60,v/2.5/120,e/2.0/120,n/1.5/120,b/2.5/180,m/2.0/180,u/1.5/180,n/1.0/180,d/2.5/240,r/2.0/240,o/1.5/240,p/2.5/300,a/2.0/300,p/1.5/300,后/5.3/0,来/6/0,书/5.3/60,信/6/60,从/5.3/120,不/6/120,数/5.3/180,规/5.3/240,则/6/240,纸/5.3/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/servine.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\innerfar {{e/3,r/3.5}}{er}{SUR-vine}{\picstring}{\colorstring}{servine}
+\end{textblock*}
+\null\newpage
+\def\colorstring{red!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{p/2.5/0,s/4.0/0,o/4.5/0,n/5.0/0,v/2.5/60,i/2.0/60,r/1.5/60,t/2.5/120,s/2.0/120,i/1.5/120,s/1.0/120,m/2.5/180,m/2.0/180,u/1.5/180,s/1.0/180,p/2.5/240,p/2.0/240,u/1.5/240,s/1.0/240,d/2.5/300,n/2.0/300,u/1.5/300,个/5.3/0,人/6/0,水/5.3/60,流/6/60,姐/5.3/120,妹/6/120,夏/5.3/180,天/6/180,晚/5.3/240,餐/6/240,之/5.3/300,下/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/servine.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\innerfar {{e/3,r/3.5}}{er}{SUR-vine}{\picstring}{\colorstring}{servine}
+\end{textblock*}
+\null\newpage
+\def\colorstring{green!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{t/2.5/0,a/2.0/0,w/1.5/0,t/2.5/60,n/2.0/60,i/1.5/60,w/1.0/60,w/2.5/120,s/2.0/120,n/1.5/120,a/1.0/120,t/2.5/180,n/2.0/180,i/1.5/180,e/4.0/180,s/4.5/180,t/5.0/180,v/2.5/240,e/2.0/240,s/1.5/240,a/4.0/240,l/4.5/240,水/5.3/0,冬/5.3/60,天/6/60,答/5.3/120,复/6/120,利/5.3/180,息/6/180,几/5.3/240,个/6/240}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/servine.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\innerfar {{e/3,r/3.5}}{er}{SUR-vine}{\picstring}{\colorstring}{servine}
+\end{textblock*}
+\null\newpage
+\def\colorstring{blue!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{r/2.5/0,g/2.0/0,n/2.5/60,k/2.0/60,h/2.5/120,s/2.0/120,n/2.5/180,s/2.0/180,l/2.5/240,l/2.0/240,e/1.5/240,y/1.0/240,l/2.5/300,e/2.0/300,b/1.5/300,产/5.3/0,生/6/0,知/5.3/60,道/6/60,演/5.3/120,出/6/120,下/5.3/180,雪/6/180,黄/5.3/240,色/6/240,之/5.3/300,下/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/taillow.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\innerfar {{o/3,w/3.5}}{ow}{TAY-low}{\picstring}{\colorstring}{taillow}
+\end{textblock*}
+\null\newpage
+\def\colorstring{yellow!10}
+\textblockorigin{0cm}{0cm}
+\begin{textblock*}{6cm}(1cm,2cm)
+\loopy{\colorstring} {{l/2.5/0,l/2.0/0,o/1.5/0,f/1.0/0,n/4.0/60,r/2.5/120,h/2.0/120,t/1.5/120,d/2.5/180,n/2.0/180,i/1.5/180,w/1.0/180,n/2.5/240,k/2.0/240,n/4.0/240,l/2.5/300,s/2.0/300,l/4.0/300,y/4.5/300,跟/5.3/0,着/6/0,具/5.3/60,有/6/60,投/5.3/120,掷/6/120,窗/5.3/180,口/6/180,知/5.3/240,道/6/240, /5.3/300,徐/6/300}}
+\end{textblock*}
+\textblockorigin{12cm}{18cm}
+\def\picstring{/Users/lxb/Documents/yyc/pokemonpics/vowel/taillow.png}
+\begin{textblock*}{6cm}(1cm,1cm)
+\innerfar {{o/3,w/3.5}}{ow}{TAY-low}{\picstring}{\colorstring}{taillow}
+\end{textblock*}
+\end{document}
